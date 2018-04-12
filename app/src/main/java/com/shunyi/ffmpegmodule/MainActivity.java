@@ -1,15 +1,17 @@
 package com.shunyi.ffmpegmodule;
 
+import android.media.AudioFormat;
+import android.media.AudioManager;
+import android.media.AudioTrack;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 import android.widget.RelativeLayout;
-
-import java.util.logging.Logger;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -57,16 +59,19 @@ public class MainActivity extends AppCompatActivity {
 //
 //            }
 //        });
+
         findViewById(R.id.btn_start).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
-                        main(dir+"/三个音轨.ts",
-                                dir+"/三个音轨.h264",
-                                dir+"/三个音轨.aac",
-                                holder.getSurface());
+                        int result = setSource(Environment.getExternalStorageDirectory().getAbsolutePath()+"/三个音轨.ts", holder.getSurface());
+                        if(result < 0){
+                            Log.e("tag", "mediaPlayer-->setup");
+                            return;
+                        }
+                        play();
                     }
                 }).start();
             }
@@ -88,11 +93,35 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
     /**
-     * A native method that is implemented by the 'native-lib' native library,
-     * which is packaged with this application.
+     * @param sampleRateInHz 当前 声音的频率
+     * @param channelsNB 声道个数
+     * @return
      */
-    public native int stringFromJNI();
-    public native int main(String fileName,String fileName_V,String fileName_A,Object surface);
+    public AudioTrack createAudioTrack(int sampleRateInHz,int channelsNB) {
+
+        int audioFormat = AudioFormat.ENCODING_PCM_16BIT;
+        //声道布局，默认设置立体声
+        int channelConfig;
+        if(channelsNB==1){
+            channelConfig = AudioFormat.CHANNEL_OUT_MONO;
+        }else if(channelsNB==2){
+            channelConfig = AudioFormat.CHANNEL_OUT_STEREO;
+        }else {
+            channelConfig = AudioFormat.CHANNEL_OUT_STEREO;
+        }
+        int bufferSizeInBytes = AudioTrack.getMinBufferSize(sampleRateInHz, channelConfig, audioFormat);
+
+        AudioTrack audioTrack = new AudioTrack(AudioManager.STREAM_MUSIC,
+                sampleRateInHz, channelConfig,
+                audioFormat, bufferSizeInBytes,
+                AudioTrack.MODE_STREAM);
+
+        return audioTrack;
+    }
+
+
+    public native int setSource(String filePath, Object surface);
+    public native int play();
+    public native void release();
 }

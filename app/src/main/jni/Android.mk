@@ -45,8 +45,9 @@ include $(PREBUILT_SHARED_LIBRARY)
 #myapp
 include $(CLEAR_VARS)
 LOCAL_MODULE := ffmpegmodule
-LOCAL_SRC_FILES := ffmpegmodule.c
-LOCAL_C_INCLUDES += $(LOCAL_PATH)/armeabi/include
+LOCAL_SRC_FILES := ffmpegmodule.c AVpacket_queue.c
+LOCAL_C_INCLUDES += $(LOCAL_PATH)/armeabi/include \
+ $(LOCAL_PATH)/
 ##-landroid参数 for native windows
 LOCAL_LDLIBS := -llog -landroid
 LOCAL_SHARED_LIBRARIES := avcodec avdevice avfilter avformat avutil postproc swresample swscale

@@ -1,89 +1,365 @@
-D:/androidworkspace/FFmpegmodule2/app/src/main/obj/local/armeabi/objs/ffmpegmodule/ffmpegmodule.o: \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/ffmpegmodule.c \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/avcodec.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/samplefmt.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/avutil.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/common.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/attributes.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/macros.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/version.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/../libavutil/avconfig.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/mem.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/error.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/rational.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/mathematics.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/intfloat.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/log.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/pixfmt.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/buffer.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/cpu.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/channel_layout.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/dict.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/frame.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/version.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavformat/avformat.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavformat/avio.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavformat/../libavutil/common.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavformat/version.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavutil/imgutils.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/pixdesc.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libswscale/swscale.h \
-  D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libswscale/version.h
+F:/androidstudio/test/FFmpegmodule2/app/src/main/obj/local/armeabi/objs/ffmpegmodule/ffmpegmodule.o: \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/ffmpegmodule.c \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/jni.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/android/api-level.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/avcodec.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/errno.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/linux/errno.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm/errno.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm-generic/errno.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm-generic/errno-base.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/samplefmt.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/stdint.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/_types.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/machine/_types.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/_wchar_limits.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/avutil.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/common.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/inttypes.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/limits.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/limits.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/linux/limits.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/machine/internal_types.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/machine/limits.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/syslimits.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm/page.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/math.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/types.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/linux/posix_types.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/linux/stddef.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/linux/compiler.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm/posix_types.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm/types.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/linux/types.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/machine/kernel.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/stdio.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/stdlib.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/string.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/malloc.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/alloca.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/strings.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/memory.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/attributes.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/macros.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/version.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/../libavutil/avconfig.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/mem.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/error.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/rational.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/mathematics.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/intfloat.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/log.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/pixfmt.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/attributes.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/avutil.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/buffer.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/cpu.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/channel_layout.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/dict.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/frame.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/buffer.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/dict.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/samplefmt.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/log.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/pixfmt.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/rational.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/version.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/version.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavformat/avformat.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/time.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/time.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/linux/time.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm/siginfo.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavformat/../libavcodec/avcodec.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavformat/../libavutil/dict.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavformat/../libavutil/log.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavformat/avio.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavformat/../libavutil/common.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavformat/version.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavformat/../libavutil/version.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/android/log.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/mathematics.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/android/native_window.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/android/rect.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/android/native_window_jni.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/avutil.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/imgutils.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/avutil.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/pixdesc.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/attributes.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/pixfmt.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/version.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/rational.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswscale/swscale.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswscale/../libavutil/avutil.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswscale/../libavutil/log.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswscale/../libavutil/pixfmt.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswscale/version.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswscale/../libavutil/version.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswresample/swresample.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswresample/../libavutil/channel_layout.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswresample/../libavutil/frame.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswresample/../libavutil/samplefmt.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswresample/version.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswresample/../libavutil/avutil.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/unistd.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/select.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/signal.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm/signal.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm/sigcontext.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/ucontext.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/user.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/sysconf.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/linux/capability.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/pathconf.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/AVpacket_queue.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/pthread.h \
+ F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sched.h \
+ F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/time.h
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/avcodec.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/jni.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/samplefmt.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/cdefs.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/avutil.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/common.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/android/api-level.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/attributes.h:
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/avcodec.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/macros.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/errno.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/version.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/linux/errno.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/../libavutil/avconfig.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm/errno.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/mem.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm-generic/errno.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/error.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm-generic/errno-base.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/rational.h:
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/samplefmt.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/mathematics.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/stdint.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/intfloat.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/_types.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/log.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/machine/_types.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/pixfmt.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/_wchar_limits.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/buffer.h:
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/avutil.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/cpu.h:
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/common.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/channel_layout.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/inttypes.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/dict.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/limits.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/frame.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/limits.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/version.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/linux/limits.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavformat/avformat.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/machine/internal_types.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavformat/avio.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/machine/limits.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavformat/../libavutil/common.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/syslimits.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavformat/version.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm/page.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavutil/imgutils.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/math.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/pixdesc.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/types.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libswscale/swscale.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/linux/posix_types.h:
 
-D:/androidworkspace/FFmpegmodule2/app/src/main/jni/include/libswscale/version.h:
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/linux/stddef.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/linux/compiler.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm/posix_types.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm/types.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/linux/types.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/machine/kernel.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/stdio.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/stdlib.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/string.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/malloc.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/alloca.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/strings.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/memory.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/attributes.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/macros.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/version.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/../libavutil/avconfig.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/mem.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/error.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/rational.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/mathematics.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/intfloat.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/log.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/pixfmt.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/attributes.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/avutil.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/buffer.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/cpu.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/channel_layout.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/dict.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/frame.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/buffer.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/dict.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/samplefmt.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/log.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/pixfmt.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/rational.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/version.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavcodec/../libavutil/version.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavformat/avformat.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/time.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/time.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/linux/time.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm/siginfo.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavformat/../libavcodec/avcodec.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavformat/../libavutil/dict.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavformat/../libavutil/log.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavformat/avio.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavformat/../libavutil/common.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavformat/version.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavformat/../libavutil/version.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/android/log.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/mathematics.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/android/native_window.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/android/rect.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/android/native_window_jni.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/avutil.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/imgutils.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/avutil.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/pixdesc.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/attributes.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/pixfmt.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/version.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/rational.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswscale/swscale.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswscale/../libavutil/avutil.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswscale/../libavutil/log.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswscale/../libavutil/pixfmt.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswscale/version.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswscale/../libavutil/version.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswresample/swresample.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswresample/../libavutil/channel_layout.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswresample/../libavutil/frame.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswresample/../libavutil/samplefmt.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswresample/version.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libswresample/../libavutil/avutil.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/unistd.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/select.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/signal.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm/signal.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/asm/sigcontext.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/ucontext.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/user.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sys/sysconf.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/linux/capability.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/pathconf.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/AVpacket_queue.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/pthread.h:
+
+F:/androidstudio/android-ndk-r10e/platforms/android-9/arch-arm/usr/include/sched.h:
+
+F:/androidstudio/test/FFmpegmodule2/app/src/main/jni/include/libavutil/time.h:
